@@ -18,7 +18,7 @@ const products = [
         discount: "30% OFF",
         imageUrl: "https://images.pexels.com/photos/106839/pexels-photo-106839.jpeg?cs=srgb&dl=pexels-mikebirdy-106839.jpg&fm=jpg"  // Add your image URL here
     },
-    // Add more products with imageUrl here...
+
 ];
 
 const ProductList = () => {
