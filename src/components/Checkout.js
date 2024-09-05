@@ -10,8 +10,8 @@ const cartItems = [
 
 const Checkout = () => {
     const subtotal = cartItems.reduce((total, item) => total + parseFloat(item.price.replace('€', '')), 0);
-    const shipping = 0; // Assuming free shipping
-    const tax = 0; // Assuming no tax
+    const shipping = 0; 
+    const tax = 0; 
     const total = subtotal + shipping + tax;
 
     return (
